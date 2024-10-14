@@ -1,0 +1,25 @@
+@font-face {
+    font-weight: 200; /* Соответствует значению normal */
+    font-family: "SF Pro Display";
+    src: url("/SF-Pro-Display/SF-Pro-Display-Light.otf") format("opentype");
+}
+@font-face {
+    font-weight: 400; /* Соответствует значению normal */
+    font-family: "SF Pro Display";
+    src: url("/SF-Pro-Display/SF-Pro-Display-Regular.otf") format("opentype");
+}
+@font-face {
+    font-weight: 500; /* Соответствует значению normal */
+    font-family: "SF Pro Display";
+    src: url("/SF-Pro-Display/SF-Pro-Display-Medium.otf") format("opentype");
+}
+@font-face {
+    font-weight: 600; /* Соответствует значению normal */
+    font-family: "SF Pro Display";
+    src: url("/SF-Pro-Display/SF-Pro-Display-SemiBold.otf") format("opentype");
+}
+@font-face {
+    font-weight: 700; /* Соответствует значению normal */
+    font-family: "SF Pro Display";
+    src: url("/SF-Pro-Display/SF-Pro-Display-Bold.otf") format("opentype");
+}

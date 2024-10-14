@@ -1,0 +1,36 @@
+.label {
+    line-height: auto;
+    font-family: var(--font-main);
+    // Общие стили для всех текстовых элементов
+  }
+  
+  .l1m {
+    font-size: 14px;
+    font-weight: var(--font-medium);
+    // Стили для l1m
+  }
+  
+  .l1 {
+    font-size: 14px;
+    font-weight: var(--font-regular);
+    // Стили для l1
+  }
+  
+  .l2 {
+    font-size: 12px;
+    font-weight: var(--font-regular);
+    // Стили для l2
+  }
+  
+  .l2m {
+    font-size: 12px;
+    font-weight: var(--font-medium);
+    // Стили для l2m
+  }
+  
+  .l3m {
+    font-size: 10px;
+    font-weight: var(--font-medium);
+    // Стили для l3m
+  }
+  

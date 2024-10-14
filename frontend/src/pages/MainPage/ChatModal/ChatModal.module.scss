@@ -1,0 +1,107 @@
+.chatModal {
+	position: fixed;
+	right: 0;
+	bottom: 0;
+	width: 80vw;
+	height: 100vh;
+	background-color: #000;
+	border-radius: 10px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+	display: flex;
+	flex-direction: column;
+	padding: 0;
+	font-family: var(--font-main);
+	background-image: url('/img/main/ai.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	padding: 40px;
+    background-blend-mode: luminosity;
+}
+
+.logo {
+	width: 252.679px;
+	height: 80.661px;
+	position: absolute;
+	z-index: 1;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	filter: blur(1px);
+}
+
+.closeButton {
+	position: absolute;
+    color: #fff;
+	top: 20px;
+	left: 20px;
+	background-color: transparent;
+}
+.chatBody {
+	padding: 10px;
+	flex-grow: 1;
+	overflow-y: auto;
+	display: flex;
+	flex-direction: column; /* Сообщения отображаются сверху вниз */
+}
+
+.chatMessage {
+	display: inline-flex;
+	max-width: 579px;
+	padding: 26px;
+	align-items: center;
+	gap: 10px;
+	flex-shrink: 0;
+	border-radius: 16px;
+	background: rgba(159, 224, 236, 0.1);
+	margin-bottom: 10px; /* Пространство между сообщениями */
+    z-index: 3;
+    backdrop-filter:blur(8px);
+}
+
+.userMessage {
+	align-self: flex-end; /* Сообщения пользователя справа */
+	text-align: right;
+	color: #fff;
+	border-radius: 16px;
+	background: rgba(159, 224, 236, 0.1); /* Светлый синий фон для сообщений пользователя */
+}
+
+.botMessage {
+	align-self: flex-start; /* Сообщения бота слева */
+	text-align: left;
+	color: #fff;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 150%;
+}
+
+.chatFooter {
+	display: flex;
+	gap: 12px;
+	padding: 10px 0;
+}
+
+.inp {
+	flex: 1;
+	padding: 18px 24px;
+	border-radius: 8px;
+	background: rgba(159, 224, 236, 0.1);
+	color: #fff;
+	border: none; /* Убираем границу */
+}
+.sendButton {
+    padding: 10px 20px;
+	border-radius: 8px;
+	background-color: #fff;
+	color: #000;
+	border: none;
+	cursor: pointer;
+}
+
+
+.buttonDisabled {
+	background-color: #ccc;
+	cursor: not-allowed;
+}

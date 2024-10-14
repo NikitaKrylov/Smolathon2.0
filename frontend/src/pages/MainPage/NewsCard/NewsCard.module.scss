@@ -1,0 +1,53 @@
+.card {
+	display: flex;
+	align-items: center;
+	gap: 22px;
+	align-self: stretch;
+	.info {
+		display: flex;
+		flex-direction: column;
+		align-items: flex-start;
+		gap: 16px;
+		flex: 1 0 0;
+		.text {
+			display: flex;
+			flex-direction: column;
+			align-items: flex-start;
+			gap: 12px;
+			.title {
+				color: #fff;
+			}
+			.desription {
+				color: #fff;
+				opacity: 0.5;
+			}
+		}
+
+		.badges {
+			display: flex;
+			flex-direction: row;
+			align-items: center;
+			align-content: center;
+			gap: 4px;
+			align-self: stretch;
+			flex-wrap: wrap;
+			.badge {
+				display: flex;
+				height: 24px;
+				padding: 6px 8px;
+				justify-content: center;
+				align-items: center;
+				gap: 8px;
+				border-radius: 6px;
+				background: rgba(159, 224, 236, 0.1);
+				color: #fff;
+
+				font-family: var(--font-main);
+				font-size: 12px;
+				font-style: normal;
+				font-weight: 400;
+				line-height: normal;
+			}
+		}
+	}
+}

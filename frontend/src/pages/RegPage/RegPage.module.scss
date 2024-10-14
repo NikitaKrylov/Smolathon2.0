@@ -1,0 +1,127 @@
+.regpage {
+	display: flex;
+	flex-direction: row;
+	gap: 40px;
+
+	padding: 40px;
+	background-color: var(--color-main-black);
+	.leftside {
+		position: relative;
+		width: 51.042vw;
+		height: 944px;
+		border-radius: 32px;
+		background: url('/img/reg/step1.png') lightgray -193px -168.999px / 171.02% 135.911% no-repeat;
+		animation: fadeInBackground 4s ease-in-out;
+		.content {
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			gap: 108px;
+			position: absolute;
+			bottom: 110px;
+			right: 50%;
+			transform: translateX(50%);
+            width: 100%;
+			.motto_wrap {
+				display: flex;
+				flex-direction: column;
+				align-items: center;
+				gap: 32px;
+				.motto {
+					display: flex;
+					flex-direction: column;
+					justify-content: center;
+					align-items: center;
+					gap: 24px;
+					align-self: stretch;
+                    .motto_text {
+                        color: rgba(255, 255, 255, 0.70);
+                        font-weight: 200;
+                        font-size: 20px;
+                    }
+                    .motto_title{
+                        color: #FFF;
+                    }
+				}
+			}
+			.stageViewer {
+				display: flex;
+				flex-direction: column;
+				align-items: flex-start;
+				gap: 13px;
+			}
+		}
+	}
+    .rightside {
+		display: flex;
+		width: 40.625vw;
+		height: 944px;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		gap: 152px;
+		flex-shrink: 0;
+		.register {
+			display: flex;
+			flex-direction: column;
+			align-items: flex-start;
+			gap: 72px;
+			.login_title {
+				display: flex;
+				flex-direction: column;
+				align-items: center;
+				gap: 24px;
+				align-self: stretch;
+				.title {
+					color: #fff;
+					text-align: center;
+				}
+				.subtitle {
+					color: #b2b5b6;
+					opacity: 0.7;
+				}
+			}
+            .inp_fields {
+                display: flex;
+                flex-direction: column;
+                align-items: flex-start;
+                gap: 24px;
+                align-self: stretch;
+            }
+		}
+		
+        .tools {
+            display: flex;
+            width: 408px;
+            flex-direction: column;
+            align-items: center;
+            gap: 16px;
+            .submitBtn {
+                display: flex;
+                padding: 18px 20px;
+                justify-content: center;
+                align-items: center;
+                gap: 8px;
+                align-self: stretch;
+                border-radius: 8px;
+                opacity: 0.5;
+                background: #fff;
+            }
+            .submitBtn_ready{
+                opacity: 1;
+            }
+        }
+	}
+	
+}
+
+@keyframes fadeInBackground {
+	0% {
+		background-position: center top;
+		opacity: 0;
+	}
+	100% {
+		background-position: center center;
+		opacity: 1;
+	}
+}

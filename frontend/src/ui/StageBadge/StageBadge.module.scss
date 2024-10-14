@@ -1,0 +1,63 @@
+.stageBadge {
+	display: flex;
+	padding: 12px 16px;
+	align-items: center;
+	gap: 12px;
+	align-self: stretch;
+	border-radius: 16px;
+
+	background: rgba(159, 224, 236, 0.2);
+	.number {
+		display: flex;
+		width: 30px;
+		height: 30px;
+		padding: 8px;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		gap: 8px;
+		border-radius: 9px;
+		background: rgba(255, 255, 255, 0.3);
+
+		.label {
+			color: rgba(255, 255, 255, 0.80);
+
+			text-align: center;
+
+			/* Label/L1 */
+			font-family: var(--font-main);
+			font-size: 14px;
+			font-style: normal;
+			font-weight: 400;
+			line-height: normal;
+		}
+	}
+	.text {
+		color: rgba(255, 255, 255, 0.8);
+		text-align: center;
+	
+
+		/* Label/L1 [M] */
+		font-family: var(--font-main);
+		font-size: 14px;
+		font-style: normal;
+		font-weight: 500;
+		line-height: normal;
+	}
+}
+
+.active {
+	background: #fff;
+    .active_number {
+        background: rgba(1, 1, 1, 0.80);
+        .active_label {
+            color: #FFF;
+        
+        }
+    }
+    .active_text {
+        color: rgba(1, 1, 1, 0.80);
+    }
+}
+
+

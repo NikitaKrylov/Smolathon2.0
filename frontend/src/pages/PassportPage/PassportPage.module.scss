@@ -1,0 +1,195 @@
+.passportpage {
+	display: flex;
+	padding-left: 16px;
+	padding-right: 16px;
+	padding-top: 24px;
+	flex-direction: column;
+	align-items: flex-start;
+	gap: 32px;
+	height: auto;
+	padding-bottom: 40px;
+	.header {
+		width: 100%;
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+		align-items: center;
+	}
+	.profile {
+		width: 100%;
+		display: flex;
+		flex-direction: column;
+		gap: 24px;
+		align-items: start;
+		.info {
+			display: flex;
+			flex-direction: column;
+			gap: 24px;
+			.top {
+                width: 100%;
+				display: flex;
+				flex-direction: row;
+				align-items: center;
+				gap:50px;
+				align-self: stretch;
+				position: relative;
+				.info {
+					display: flex;
+					align-items: center;
+					gap: 24px;
+                    flex-direction: row;
+					.block {
+						display: flex;
+						flex-direction: column;
+						align-items: center;
+						gap: 8px;
+                        .number{
+                            color: #fff;
+                            
+                        }
+                        .text{
+                            color: rgba(255, 255, 255, 0.90);
+                            opacity: 0.5;
+                        }
+					}
+				}
+				.photo {
+					width: 100px;
+					height: 100px;
+					border-radius: 100px;
+					object-fit: cover;
+				}
+				.icon {
+					position: absolute;
+					left: 70px;
+					top: 0px;
+				}
+			}
+			.mid {
+				display: flex;
+				flex-direction: column;
+				gap: 12px;
+				.name {
+					color: #fff;
+				}
+				.tag {
+					color: #fff;
+					opacity: 0.5;
+				}
+			}
+			.bottom {
+				color: #fff;
+
+				/* Text/T1 */
+				font-family: 'SF Pro Display';
+				font-size: 14px;
+				font-style: normal;
+				font-weight: 400;
+				line-height: 136%; /* 19.04px */
+			}
+		}
+		.activeBtns {
+			display: flex;
+			flex-direction: column;
+			gap: 12px;
+			width: 100%;
+			.rowBtns {
+				display: flex;
+				flex-direction: row;
+				align-items: flex-start;
+				gap: 12px;
+				.btn1 {
+					display: flex;
+					padding: 12px 16px;
+					justify-content: center;
+					align-items: center;
+					gap: 8px;
+					flex: 1 0 0;
+					border-radius: 6px;
+					background: #fff;
+					color: #001417;
+
+					/* Label/L1 */
+					font-family: 'SF Pro Display';
+					font-size: 14px;
+					font-style: normal;
+					font-weight: 400;
+					line-height: normal;
+				}
+				.btn2 {
+					display: flex;
+					padding: 12px 16px;
+					justify-content: center;
+					align-items: center;
+					gap: 8px;
+					flex: 1 0 0;
+					border-radius: 6px;
+					background: rgba(14, 218, 255, 0.25);
+					color: #fff;
+
+					/* Label/L1 */
+					font-family: 'SF Pro Display';
+					font-size: 14px;
+					font-style: normal;
+					font-weight: 400;
+					line-height: normal;
+				}
+			}
+			.supportAuthor {
+				display: flex;
+				padding: 12px 16px;
+				justify-content: center;
+				align-items: center;
+				gap: 12px;
+				align-self: stretch;
+				border-radius: 16px;
+				background: linear-gradient(90deg, rgba(0, 70, 83, 0.3) -25.22%, rgba(119, 234, 255, 0.3) 50.63%, rgba(0, 70, 83, 0.3) 110.06%);
+			}
+		}
+	}
+	.projects {
+		display: flex;
+		flex-direction: column;
+		gap: 16px;
+		.title {
+			color: #fff;
+		}
+		.cardsgrid {
+			display: grid;
+			grid-template-columns: 1fr 1fr 1fr;
+			gap: 8px;
+		}
+	}
+	.interests {
+		display: flex;
+		flex-direction: column;
+		align-items: flex-start;
+		gap: 20px;
+		align-self: stretch;
+		.block {
+			display: flex;
+			flex-direction: column;
+			align-items: flex-start;
+			gap: 16px;
+			align-self: stretch;
+			.title {
+				color: rgba(255, 255, 255, 0.5);
+
+				/* Text/T1 */
+				font-family: 'SF Pro Display';
+				font-size: 14px;
+				font-style: normal;
+				font-weight: 400;
+				line-height: 136%; /* 19.04px */
+			}
+			.badges {
+				display: flex;
+				align-items: center;
+				align-content: center;
+				gap: 4px;
+				align-self: stretch;
+				flex-wrap: wrap;
+			}
+		}
+	}
+}

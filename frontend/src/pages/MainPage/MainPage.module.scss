@@ -1,0 +1,300 @@
+.mainpage {
+	width: 100%;
+	height: 100vh; /* Задаём высоту на весь экран */
+	padding: 32px 100px 0 100px;
+	background-color: #000000;
+	background-image: url('/img/main/cards1.png');
+	background-repeat: no-repeat; /* Убираем повторение изображения */
+	background-size: cover; /* Сделаем фон растянутым на всю страницу */
+	background-position: center; /* Центрируем фоновое изображение */
+	position: relative; /* Это нужно, чтобы карточки оставались поверх фона */
+	animation: fadeInBackground 4s ease-in-out;
+	.motto {
+		position: absolute;
+		top: 760px;
+		right: 50%;
+		transform: translateX(50%);
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		gap: 52px;
+		.motto_text {
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			gap: 40px;
+			align-self: stretch;
+
+			.motto_title {
+				color: #fff;
+				text-align: center;
+
+				font-family: var(--font-main);
+				font-size: 64px;
+				font-style: normal;
+				font-weight: 500;
+				line-height: 62px; /* 96.875% */
+			}
+			.motto_subtitle {
+				color: #fff;
+				text-align: center;
+				font-family: var(--font-main);
+				font-size: 24px;
+				font-style: normal;
+				font-weight: 200;
+				line-height: normal;
+				opacity: 0.7;
+			}
+		}
+		.motto_btn {
+			display: flex;
+			width: 222px;
+			padding: 18px 24px;
+			justify-content: center;
+			align-items: center;
+			gap: 12px;
+			border-radius: 12px;
+			background: #fff;
+			color: #000;
+
+			/* Heading/H5 */
+			font-family: 'SF Pro Display';
+			font-size: 16px;
+			font-style: normal;
+			font-weight: 500;
+			line-height: normal;
+		}
+	}
+	.content {
+		position: relative;
+		top: 1100px;
+		display: flex;
+		flex-direction: column;
+		gap: 124px;
+		.popularProjects {
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			align-items: center;
+			width: 100%;
+			gap: 52px;
+			.popularProjects_title {
+				color: #fff;
+				width: 100%;
+			}
+			.popularProjects_items {
+				width: 100%;
+				display: grid;
+				grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+				row-gap: 32px;
+				column-gap: 24px;
+			}
+			.popularProjects_btn {
+				display: flex;
+				height: 64px;
+				width: 393px;
+				padding: 20px 48px;
+				justify-content: center;
+				align-items: center;
+				gap: 16px;
+				border-radius: 16px;
+				background: linear-gradient(90deg, rgba(0, 102, 121, 0.3) 0%, rgba(0, 202, 239, 0.3) 51.5%, rgba(0, 102, 121, 0.3) 100%);
+				justify-self: center;
+				.btn_text {
+					color: #fff;
+					text-align: center;
+
+					/* Heading/H4 */
+					font-family: 'SF Pro Display';
+					font-size: 20px;
+					font-style: normal;
+					font-weight: 500;
+					line-height: normal;
+				}
+			}
+		}
+		.aivazovsky {
+			width: 100%;
+			height: 621px;
+			border-radius: 24px;
+			background: #000;
+			display: flex;
+			flex-direction: column;
+			padding: 40px;
+			background-image: url('/img/main/main2.png');
+			background-repeat: no-repeat; /* Убираем повторение изображения */
+			background-size: cover; /* Сделаем фон растянутым на всю страницу */
+			background-position: center; /* Центрируем фоновое изображение */
+			position: relative; /* Это нужно, чтобы карточки оставались поверх фона */
+			.logo2 {
+				margin-bottom: 72px;
+			}
+			.aivazovsky_phrase {
+				display: flex;
+				flex-direction: column;
+				align-items: start;
+				gap: 40px;
+				.phrase {
+					color: #fff;
+					width: 856px;
+					height: auto;
+				}
+				.aivazovsky_text {
+					color: #fff;
+					font-family: 'SF Pro Display';
+					font-size: 14px;
+					font-style: normal;
+					font-weight: 400;
+					line-height: 150%; /* 21px */
+				}
+			}
+			.aivazovsky_btn {
+				background-image: url('/img/main/btn.svg');
+				background-repeat: no-repeat; /* Убираем повторение изображения */
+				background-size: cover; /* Сделаем фон растянутым на всю страницу */
+				background-position: center; /* Центрируем фоновое изображение */
+				margin-top: 52px;
+				width: 306px;
+				height: 55px;
+			}
+		}
+		.news {
+			display: flex;
+			flex-direction: column;
+			align-items: flex-start;
+			gap: 52px;
+			width: 100%;
+			margin-bottom: 100px;
+			.news_title {
+				color: #fff;
+				width: 100%;
+			}
+			.news_content {
+				display: flex;
+				flex-direction: column;
+				gap: 26px;
+				width: 100%;
+				ul {
+					display: flex;
+					flex-direction: row;
+					display: flex;
+					align-items: flex-start;
+					gap: 40px;
+					li {
+						color: #fff;
+						text-align: center;
+						font-family: 'SF Pro Display';
+						font-size: 16px;
+						font-style: normal;
+						font-weight: 400;
+						line-height: normal;
+						opacity: 0.5;
+					}
+				}
+				.news_cards {
+					display: flex;
+					flex-direction: row;
+					gap: 40px;
+					.newsBig {
+						width: 41.667vw;
+						display: flex;
+						flex-direction: column;
+						align-items: flex-start;
+						gap: 22px;
+						align-self: stretch;
+						.newsBig_img {
+							width: 100%;
+							height: auto;
+							border-radius: 24px;
+						}
+						.info {
+							display: flex;
+							flex-direction: column;
+							align-items: flex-start;
+							gap: 16px;
+							.text {
+								display: flex;
+								flex-direction: column;
+								align-items: flex-start;
+								gap: 12px;
+								.newsBig_title {
+									color: #fff;
+								}
+								.newsBig_desription {
+									color: #fff;
+									opacity: 0.5;
+								}
+							}
+							.badges {
+								display: flex;
+								align-items: center;
+								gap: 4px;
+								.badge {
+									display: flex;
+									height: 24px;
+									padding: 6px 8px;
+									justify-content: center;
+									align-items: center;
+									gap: 8px;
+									border-radius: 6px;
+									background: rgba(159, 224, 236, 0.1);
+									color: #fff;
+									font-family: var(--font-main);
+									font-size: 12px;
+									font-style: normal;
+									font-weight: 400;
+									line-height: normal;
+								}
+							}
+						}
+					}
+					.rightNews {
+						display: flex;
+						flex-direction: column;
+						gap: 52px;
+						width: 41.667vw;
+						.cardsSmall {
+							display: flex;
+							flex-direction: column;
+							gap: 26px;
+						}
+						.news_btn {
+							display: flex;
+							height: 64px;
+							width: 346px;
+							padding: 20px 48px;
+							justify-content: center;
+							align-items: center;
+							gap: 16px;
+							border-radius: 16px;
+							background: linear-gradient(90deg, rgba(0, 102, 121, 0.3) 0%, rgba(0, 202, 239, 0.3) 51.5%, rgba(0, 102, 121, 0.3) 100%);
+							justify-self: center;
+							.btn_text {
+								color: #fff;
+								text-align: center;
+
+								/* Heading/H4 */
+								font-family: 'SF Pro Display';
+								font-size: 20px;
+								font-style: normal;
+								font-weight: 500;
+								line-height: normal;
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+@keyframes fadeInBackground {
+	0% {
+		background-position: center top;
+		opacity: 0;
+	}
+	100% {
+		background-position: center center;
+		opacity: 1;
+	}
+}

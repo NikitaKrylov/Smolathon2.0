@@ -1,0 +1,70 @@
+.header {
+	display: flex;
+    flex-direction: row;
+	width: 100%; /* Чтобы элемент адаптировался под размер экрана */
+	gap:79px;
+	align-items: center;
+	height: 64px;
+
+	.authBtn {
+		display: flex;
+		height: 64px;
+		padding: 12px 24px;
+		align-items: center;
+		gap: 24px;
+		border-radius: 16px;
+		background: rgba(0, 51, 61, 0.25);
+		color: #fff;
+	}
+	.mainheader {
+		display: flex;
+		align-items: center;
+		gap: 40px;
+		flex-direction: row;
+		flex-grow: 1; /* Контейнер будет растягиваться, чтобы занять доступное пространство */
+
+		.logo {
+            width: 220px; /* Зафиксированная ширина логотипа */
+            height: 84px; /* Зафиксированная высота логотипа */
+        }
+		.searchField {
+			display: flex;
+			padding: 12px 16px;
+			align-items: center;
+			border-radius: 16px;
+			background: rgba(0, 51, 61, 0.25);
+			justify-content: end;
+			flex-grow: 1; /* Элемент будет растягиваться */
+			max-width: 387px; /* Устанавливаем ширину в процентах, чтобы она изменялась в зависимости от доступного пространства */
+
+			.searchInput {
+				color: #fff;
+				width: 100%; /* Поле ввода будет растягиваться по ширине searchField */
+				font-family: 'SF Pro Display';
+				font-size: 20px;
+				font-style: normal;
+				font-weight: 500;
+				line-height: normal;
+			}
+
+			.searchInput::placeholder {
+				color: #fff;
+			}
+		}
+		ul {
+			display: flex;
+			list-style: none;
+			gap: 40px;
+			flex-direction: row;
+			li {
+				color: #fff;
+				font-family: 'SF Pro Display';
+				font-size: 20px;
+				font-style: normal;
+				font-weight: 500;
+				line-height: normal;
+				text-wrap: nowrap;
+			}
+		}
+	}
+}

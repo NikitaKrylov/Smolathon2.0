@@ -5,14 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8b12ae62-4be9-4072-b974-c3ab62aa20bd" name="Changes" comment="feat: add prezentation">
-      <change afterPath="$PROJECT_DIR$/SMOL2.0.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Smolathon2.0.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/Desktop-8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/визитка.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/локация-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/локация.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/работы.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/рега_1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_11_10_2024__04_28__Changes_.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_11_10_2024__08_19__Changes_.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,9 +44,10 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Python.main.executor": "Debug",
+    "RunOnceActivity.OpenDatabaseViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "/Users/nikita/PycharmProjects/Smolathon2.0",
+    "last_opened_file_path": "/Users/nikita/PycharmProjects/Smolathon2.0/static",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -55,8 +58,8 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/static" />
+      <recent name="$PROJECT_DIR$" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/backend/src/database" />
@@ -74,7 +77,6 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="SDK_NAME" value="Python 3.12 (Smolathon2.0)" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/backend" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
@@ -120,6 +122,11 @@
       <workItem from="1728464324980" duration="20297000" />
       <workItem from="1728552661694" duration="2670000" />
       <workItem from="1728557071889" duration="35121000" />
+      <workItem from="1728906840228" duration="1812000" />
+      <workItem from="1729778584844" duration="1600000" />
+      <workItem from="1731824716075" duration="605000" />
+      <workItem from="1731841672615" duration="849000" />
+      <workItem from="1734109508584" duration="1387000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <option name="closed" value="true" />

@@ -123,6 +123,6 @@ PASSWORD=<Пароль пользователя>
 
 [Андрей Кадомцев](https://github.com/Aven1r) - **ML / Promt Engineer**
 
-[Андрей Тычинин](https://t.me/timkoskos) - **UI / UX**
+[Андрей Тычинин](https://t.me/timkoskos) - **UI / UX / Frontend**
 
-[Тимофей Костров](https://t.me/timkoskos) - **UI / UX**
+[Тимофей Костров](https://t.me/timkoskos) - **UI / UX / Frontend**
